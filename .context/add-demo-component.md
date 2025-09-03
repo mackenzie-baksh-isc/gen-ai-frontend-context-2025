@@ -1,0 +1,1 @@
+ensure react-router-dom is in place with the a page for the default route / , have a component that returns the title Template and usage of the mantine copy button to copy the word template with a notification fired when copy successful , also add a modal that has its state managed by the mantine useDisclosure hook

@@ -1,0 +1,56 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+# testing
+/coverage
+# production
+/build
+# misc
+.DS_Store
+*.pem
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# local env files
+.env*.local
+# typescript
+*.tsbuildinfo
+node_modules/
+.yalc/
+# VS code files
+.vscode/launch.json
+build/
+dist/
+.next/
+#npmrc file
+.npmrc
+._.DS_Store
+*.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+yalc.lock
+.idea
+node_modules
+dist
+dist-ssr
+*.local
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cypress
+cypress/screenshots
+cypress/snapshot/diff
+cypress.env.json
+cypress/downloads
